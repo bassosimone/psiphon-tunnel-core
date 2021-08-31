@@ -35,7 +35,7 @@ import (
 	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue"
 	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
-	cache "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
+	cache "github.com/patrickmn/go-cache"
 )
 
 func IsSupported() bool {
