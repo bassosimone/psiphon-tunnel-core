@@ -133,7 +133,7 @@ type Bloom struct {
 
 // Update: found sipHash of Jean-Philippe Aumasson & Daniel J. Bernstein to be even faster than absdbm()
 // https://131002.net/siphash/
-// siphash was implemented for Go by Dmitry Chestnykh https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dchest/siphash
+// siphash was implemented for Go by Dmitry Chestnykh https://github.com/dchest/siphash
 
 // Add
 // set the bit(s) for entry; Adds an entry to the Bloom filter

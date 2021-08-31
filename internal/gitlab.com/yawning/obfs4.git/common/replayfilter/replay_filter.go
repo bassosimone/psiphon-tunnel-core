@@ -38,7 +38,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dchest/siphash"
+	"github.com/dchest/siphash"
 	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
 )
 
