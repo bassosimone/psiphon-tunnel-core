@@ -9,7 +9,7 @@ import (
 	"math/rand"
 	"net"
 
-	wr "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/mroth/weightedrand"
+	wr "github.com/mroth/weightedrand"
 	pb "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
 )
 
