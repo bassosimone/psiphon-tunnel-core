@@ -15,7 +15,7 @@
 */
 package protos
 
-import proto "github.com/golang/protobuf/proto"
+import proto "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
 

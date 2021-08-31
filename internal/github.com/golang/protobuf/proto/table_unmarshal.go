@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2016 The Go Authors.  All rights reserved.
-// https://github.com/golang/protobuf
+// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -1288,7 +1288,7 @@ func unmarshalBoolValue(b []byte, f pointer, w int) ([]byte, error) {
 	}
 	// Note: any length varint is allowed, even though any sane
 	// encoder will use one byte.
-	// See https://github.com/golang/protobuf/issues/76
+	// See https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/issues/76
 	x, n := decodeVarint(b)
 	if n == 0 {
 		return nil, io.ErrUnexpectedEOF
