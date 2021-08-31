@@ -40,7 +40,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/grafov/m3u8"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/grafov/m3u8"
 )
 
 // HttpProxy is a HTTP server that relays HTTP requests through the Psiphon tunnel.

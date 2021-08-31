@@ -6,7 +6,7 @@ package m3u8
 
  Copyright 2013-2017 The Project Developers.
  See the AUTHORS and LICENSE files at the top-level directory of this distribution
- and at https://github.com/grafov/m3u8/
+ and at https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/grafov/m3u8/
 
  ॐ तारे तुत्तारे तुरे स्व
 */
@@ -163,7 +163,7 @@ func decode(buf *bytes.Buffer, strict bool) (Playlist, ListType, error) {
 			break
 		}
 
-		// fixes the issues https://github.com/grafov/m3u8/issues/25
+		// fixes the issues https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/grafov/m3u8/issues/25
 		// TODO: the same should be done in decode functions of both Master- and MediaPlaylists
 		// so some DRYing would be needed.
 		if len(line) < 1 || line == "\r" {
