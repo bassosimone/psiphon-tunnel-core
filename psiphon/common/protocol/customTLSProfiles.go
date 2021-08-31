@@ -25,7 +25,7 @@ import (
 
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
-	utls "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
+	utls "github.com/refraction-networking/utls"
 )
 
 // CustomTLSProfile specifies custom TLS profile. This is used to deploy
@@ -65,7 +65,7 @@ func (profiles CustomTLSProfiles) Validate() error {
 //
 // A new utls.ClientHelloSpec, with no shared data, is created for each call,
 // as per:
-// https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls/blob/4da67951864128358459681399dd208c49d5d001/u_parrots.go#L483
+// https://github.com/refraction-networking/utls/blob/4da67951864128358459681399dd208c49d5d001/u_parrots.go#L483
 func (profile *CustomTLSProfile) GetClientHelloSpec() (*utls.ClientHelloSpec, error) {
 
 	spec := &utls.ClientHelloSpec{}

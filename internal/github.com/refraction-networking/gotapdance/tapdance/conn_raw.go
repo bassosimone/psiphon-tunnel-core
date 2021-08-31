@@ -18,7 +18,7 @@ import (
 
 	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
 	pb "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
-	tls "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
+	tls "github.com/refraction-networking/utls"
 )
 
 // Simply establishes TLS and TapDance connection.

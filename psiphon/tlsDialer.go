@@ -68,7 +68,7 @@ import (
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
 	tris "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
-	utls "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
+	utls "github.com/refraction-networking/utls"
 )
 
 // CustomTLSConfig specifies the parameters for a CustomTLSDial, supporting
