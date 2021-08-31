@@ -38,9 +38,9 @@ import (
 	"strings"
 
 	"git.torproject.org/pluggable-transports/goptlib.git"
-	"gitlab.com/yawning/obfs4.git/common/csrand"
-	"gitlab.com/yawning/obfs4.git/common/drbg"
-	"gitlab.com/yawning/obfs4.git/common/ntor"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/drbg"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
 )
 
 const (

@@ -27,7 +27,7 @@
 
 // Package obfs4 provides an implementation of the Tor Project's obfs4
 // obfuscation protocol.
-package obfs4 // import "gitlab.com/yawning/obfs4.git/transports/obfs4"
+package obfs4 // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4"
 
 import (
 	"bytes"
@@ -41,12 +41,12 @@ import (
 	"time"
 
 	"git.torproject.org/pluggable-transports/goptlib.git"
-	"gitlab.com/yawning/obfs4.git/common/drbg"
-	"gitlab.com/yawning/obfs4.git/common/ntor"
-	"gitlab.com/yawning/obfs4.git/common/probdist"
-	"gitlab.com/yawning/obfs4.git/common/replayfilter"
-	"gitlab.com/yawning/obfs4.git/transports/base"
-	"gitlab.com/yawning/obfs4.git/transports/obfs4/framing"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/drbg"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/probdist"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/replayfilter"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/base"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4/framing"
 )
 
 const (

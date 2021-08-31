@@ -32,7 +32,7 @@
 //
 // Before using this package, it is strongly recommended that the specification
 // is read and understood.
-package ntor // import "gitlab.com/yawning/obfs4.git/common/ntor"
+package ntor // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
 
 import (
 	"bytes"
@@ -44,7 +44,7 @@ import (
 	"io"
 
 	"github.com/agl/ed25519/extra25519"
-	"gitlab.com/yawning/obfs4.git/common/csrand"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"
 )

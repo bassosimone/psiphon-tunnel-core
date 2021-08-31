@@ -21,8 +21,8 @@ import (
 	pb "github.com/refraction-networking/gotapdance/protobuf"
 	ps "github.com/refraction-networking/gotapdance/tapdance/phantoms"
 	tls "github.com/refraction-networking/utls"
-	"gitlab.com/yawning/obfs4.git/common/ntor"
-	"gitlab.com/yawning/obfs4.git/transports/obfs4"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"
 )
