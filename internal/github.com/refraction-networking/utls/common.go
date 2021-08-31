@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/refraction-networking/utls/cpu"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls/cpu"
 )
 
 const (

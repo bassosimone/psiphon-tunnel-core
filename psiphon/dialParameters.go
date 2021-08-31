@@ -38,7 +38,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/values"
-	utls "github.com/refraction-networking/utls"
+	utls "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
 	regen "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/zach-klippenstein/goregen"
 	"golang.org/x/net/bpf"
 )

@@ -470,7 +470,7 @@ func (m *clientHelloMsg) marshal() []byte {
 // configuration.
 //
 // Inspired by parrotRandomized in utls:
-// https://github.com/refraction-networking/utls/blob/db1b65d2300d3a59616a43d2df4ea556b4a7d277/u_parrots.go#L300
+// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls/blob/db1b65d2300d3a59616a43d2df4ea556b4a7d277/u_parrots.go#L300
 func (m *clientHelloMsg) randomizedMarshal() []byte {
 	if m.raw != nil {
 		return m.raw
