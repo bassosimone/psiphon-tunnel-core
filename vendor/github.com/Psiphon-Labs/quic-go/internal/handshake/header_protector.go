@@ -5,7 +5,7 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"github.com/Psiphon-Labs/chacha20"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/chacha20"
 	"github.com/marten-seemann/qtls"
 )
 
