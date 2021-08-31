@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/agl/ed25519/extra25519"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/agl/ed25519/extra25519"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"
