@@ -47,7 +47,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/values"
-	tris "github.com/Psiphon-Labs/tls-tris"
+	tris "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
 	"golang.org/x/crypto/nacl/box"
 )
 
