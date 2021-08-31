@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/dgraph-io/badger/y"
-	farm "github.com/dgryski/go-farm"
+	farm "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgryski/go-farm"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
