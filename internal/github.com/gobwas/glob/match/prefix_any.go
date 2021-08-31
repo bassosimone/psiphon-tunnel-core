@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	sutil "github.com/gobwas/glob/util/strings"
+	sutil "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/strings"
 )
 
 type PrefixAny struct {

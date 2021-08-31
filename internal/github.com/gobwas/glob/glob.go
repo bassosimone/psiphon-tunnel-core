@@ -1,8 +1,8 @@
 package glob
 
 import (
-	"github.com/gobwas/glob/compiler"
-	"github.com/gobwas/glob/syntax"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/compiler"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax"
 )
 
 // Glob represents compiled glob pattern.
