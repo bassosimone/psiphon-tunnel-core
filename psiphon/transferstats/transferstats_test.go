@@ -27,7 +27,7 @@ import (
 	"regexp"
 	"testing"
 
-	mapset "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/deckarep/golang-set"
+	mapset "github.com/deckarep/golang-set"
 	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/stretchr/testify/suite"
 )
 
