@@ -24,7 +24,7 @@ import (
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	regen "github.com/zach-klippenstein/goregen"
+	regen "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/zach-klippenstein/goregen"
 )
 
 // FrontingSpecs is a list of domain fronting specs.
