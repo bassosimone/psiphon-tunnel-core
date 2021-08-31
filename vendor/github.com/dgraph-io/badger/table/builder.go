@@ -22,7 +22,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/AndreasBriese/bbloom"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
 	"github.com/dgraph-io/badger/y"
 )
 
