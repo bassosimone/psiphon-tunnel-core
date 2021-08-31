@@ -28,7 +28,7 @@ import (
 	"testing"
 
 	mapset "github.com/deckarep/golang-set"
-	"github.com/stretchr/testify/suite"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/suite"
 )
 
 const (

@@ -1,5 +1,5 @@
 /*
-* CODE GENERATED AUTOMATICALLY WITH github.com/stretchr/testify/_codegen
+* CODE GENERATED AUTOMATICALLY WITH github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/_codegen
 * THIS FILE MUST NOT BE EDITED BY HAND
  */
 
