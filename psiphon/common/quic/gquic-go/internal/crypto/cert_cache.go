@@ -5,7 +5,7 @@ import (
 	"hash/fnv"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
-	"github.com/hashicorp/golang-lru"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/hashicorp/golang-lru"
 )
 
 var (
