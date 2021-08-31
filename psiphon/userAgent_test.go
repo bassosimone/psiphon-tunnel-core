@@ -32,7 +32,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/values"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/server"
-	"github.com/elazarl/goproxy"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
 )
 
 // TODO: test that server receives and records correct user_agent value

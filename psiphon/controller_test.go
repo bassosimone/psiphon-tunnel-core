@@ -41,8 +41,8 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic"
-	"github.com/elazarl/goproxy"
-	"github.com/elazarl/goproxy/ext/auth"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy/ext/auth"
 )
 
 func TestMain(m *testing.M) {
