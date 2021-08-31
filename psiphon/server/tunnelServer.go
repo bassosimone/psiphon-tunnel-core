@@ -52,7 +52,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tactics"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tun"
 	"github.com/marusama/semaphore"
-	cache "github.com/patrickmn/go-cache"
+	cache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
 )
 
 const (

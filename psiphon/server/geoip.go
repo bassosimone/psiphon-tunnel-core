@@ -32,7 +32,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	maxminddb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/oschwald/maxminddb-golang"
-	cache "github.com/patrickmn/go-cache"
+	cache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
 )
 
 const (
