@@ -24,7 +24,7 @@
 // anywhere a normal string comparison is done.
 //
 // This package is very similar to and inspired by github.com/ryanuber/go-
-// glob, but with performance optimizations; github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob offers a
+// glob, but with performance optimizations; github.com/gobwas/glob offers a
 // much richer glob syntax and faster performance for cases where a compiled
 // glob state can be maintained.
 //
@@ -44,14 +44,14 @@
 // BenchmarkSuffixGoGlob-4              20000000       105 ns/op
 // BenchmarkMultipleGoGlob-4             5000000       270 ns/op
 //
-// github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob with precompile:
+// github.com/gobwas/glob with precompile:
 //
 // BenchmarkFixedGlobPrecompile-4       100000000       14.1 ns/op
 // BenchmarkPrefixGlobPrecompile-4      200000000        6.66 ns/op
 // BenchmarkSuffixGlobPrecompile-4      200000000        7.31 ns/op
 // BenchmarkMultipleGlobPrecompile-4    10000000       151 ns/op
 //
-// github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob with compile-and-match:
+// github.com/gobwas/glob with compile-and-match:
 //
 // BenchmarkFixedGlob-4                   300000      4120 ns/op
 // BenchmarkPrefixGlob-4                 1000000      1502 ns/op

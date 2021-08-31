@@ -22,7 +22,7 @@ package wildcard
 import (
 	"testing"
 
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob"
+	"github.com/gobwas/glob"
 	go_glob "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/ryanuber/go-glob"
 )
 
