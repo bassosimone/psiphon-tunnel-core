@@ -1,7 +1,7 @@
 package quic
 
 import (
-	"github.com/cheekybits/genny/generic"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cheekybits/genny/generic"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/protocol"
 )
