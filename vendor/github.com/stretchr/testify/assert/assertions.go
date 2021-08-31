@@ -15,7 +15,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/davecgh/go-spew/spew"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/davecgh/go-spew/spew"
 	"github.com/pmezard/go-difflib/difflib"
 )
 
