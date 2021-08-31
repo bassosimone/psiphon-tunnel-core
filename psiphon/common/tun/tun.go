@@ -2802,8 +2802,8 @@ func checksumAdjust(checksumData []byte, accumulator int32) {
 packet debugging snippet:
 
 	import (
-        "github.com/google/gopacket"
-        "github.com/google/gopacket/layers"
+        "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+        "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
 	)
 
 

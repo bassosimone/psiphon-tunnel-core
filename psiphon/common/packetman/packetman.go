@@ -71,8 +71,8 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
 )
 
 // Config specifies a packet manipulation configuration.

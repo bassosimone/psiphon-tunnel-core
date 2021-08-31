@@ -33,8 +33,8 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue"
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
 	cache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
 )
 
@@ -519,7 +519,7 @@ func (m *Manipulator) parseInterceptedPacket(packetData []byte) (gopacket.Packet
 	//
 	// As we parse only one packet per TCP connection, we are not using the
 	// faster DecodingLayerParser API,
-	// https://godoc.org/github.com/google/gopacket#hdr-Fast_Decoding_With_DecodingLayerParser,
+	// https://godoc.org/github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket#hdr-Fast_Decoding_With_DecodingLayerParser,
 	// or zero-copy approaches.
 	//
 	// TODO: use a stub gopacket.Decoder as the first layer to avoid the extra

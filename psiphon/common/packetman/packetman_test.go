@@ -25,8 +25,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/google/gopacket"
-	"github.com/google/gopacket/layers"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
 )
 
 func TestTransformations(t *testing.T) {
