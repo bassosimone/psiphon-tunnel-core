@@ -29,7 +29,7 @@ import (
 
 	"github.com/dgraph-io/badger/protos"
 	"github.com/dgraph-io/badger/y"
-	"github.com/pkg/errors"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 // Manifest represents the contents of the MANIFEST file in a Badger store.

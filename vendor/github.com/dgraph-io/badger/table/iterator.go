@@ -23,7 +23,7 @@ import (
 	"sort"
 
 	"github.com/dgraph-io/badger/y"
-	"github.com/pkg/errors"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 type blockIterator struct {

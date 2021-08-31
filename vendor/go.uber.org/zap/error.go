@@ -37,7 +37,7 @@ func Error(err error) Field {
 
 // NamedError constructs a field that lazily stores err.Error() under the
 // provided key. Errors which also implement fmt.Formatter (like those produced
-// by github.com/pkg/errors) will also have their verbose representation stored
+// by github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors) will also have their verbose representation stored
 // under key+"Verbose". If passed a nil error, the field is a no-op.
 //
 // For the common case in which the key is simply "error", the Error function

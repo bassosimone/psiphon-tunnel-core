@@ -30,7 +30,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
 	"github.com/dgraph-io/badger/options"
 	"github.com/dgraph-io/badger/y"
-	"github.com/pkg/errors"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 const fileSuffix = ".sst"

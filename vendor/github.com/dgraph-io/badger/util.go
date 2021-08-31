@@ -24,7 +24,7 @@ import (
 
 	"github.com/dgraph-io/badger/table"
 	"github.com/dgraph-io/badger/y"
-	"github.com/pkg/errors"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 // summary is produced when DB is closed. Currently it is used only for testing.

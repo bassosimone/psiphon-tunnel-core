@@ -27,7 +27,7 @@ import (
 
 	"github.com/dgraph-io/badger/y"
 	farm "github.com/dgryski/go-farm"
-	"github.com/pkg/errors"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 type oracle struct {
