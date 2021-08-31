@@ -15,7 +15,7 @@
 // UTS #46 is defined in https://www.unicode.org/reports/tr46.
 // See https://unicode.org/cldr/utility/idna.jsp for a visualization of the
 // differences between these two standards.
-package idna // import "github.com/Psiphon-Labs/net/idna"
+package idna // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/idna"
 
 import (
 	"fmt"

@@ -31,9 +31,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/net/http/httpguts"
-	"github.com/Psiphon-Labs/net/http2/hpack"
-	"github.com/Psiphon-Labs/net/idna"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/idna"
 )
 
 const (

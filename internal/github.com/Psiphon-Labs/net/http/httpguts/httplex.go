@@ -9,7 +9,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/Psiphon-Labs/net/idna"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/idna"
 )
 
 var isTokenTable = [127]bool{

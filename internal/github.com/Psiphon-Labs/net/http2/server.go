@@ -47,8 +47,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Psiphon-Labs/net/http/httpguts"
-	"github.com/Psiphon-Labs/net/http2/hpack"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
 )
 
 const (

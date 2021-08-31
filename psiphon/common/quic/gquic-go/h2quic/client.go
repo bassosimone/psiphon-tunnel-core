@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Psiphon-Labs/net/http2"
-	"github.com/Psiphon-Labs/net/http2/hpack"
-	"github.com/Psiphon-Labs/net/idna"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/idna"
 
 	quic "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
