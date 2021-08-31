@@ -2,7 +2,7 @@
 //
 // Cache is a simple LRU cache. It is based on the
 // LRU implementation in groupcache:
-// https://github.com/golang/groupcache/tree/master/lru
+// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/groupcache/tree/master/lru
 //
 // TwoQueueCache tracks frequently used and recently used entries separately.
 // This avoids a burst of accesses from taking out frequently used entries,
