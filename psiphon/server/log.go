@@ -35,7 +35,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/buildinfo"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/stacktrace"
-	"github.com/sirupsen/logrus"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/sirupsen/logrus"
 )
 
 // TraceLogger adds single frame stack trace information to the underlying

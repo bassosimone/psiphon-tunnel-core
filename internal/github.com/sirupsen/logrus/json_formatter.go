@@ -56,7 +56,7 @@ func (f *JSONFormatter) Format(entry *Entry) ([]byte, error) {
 		switch v := v.(type) {
 		case error:
 			// Otherwise errors are ignored by `encoding/json`
-			// https://github.com/sirupsen/logrus/issues/137
+			// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/sirupsen/logrus/issues/137
 			data[k] = v.Error()
 		default:
 			data[k] = v
