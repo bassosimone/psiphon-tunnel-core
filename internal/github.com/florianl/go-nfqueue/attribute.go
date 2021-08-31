@@ -6,7 +6,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/florianl/go-nfqueue/internal/unix"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue/internal/unix"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mdlayher/netlink"
 )

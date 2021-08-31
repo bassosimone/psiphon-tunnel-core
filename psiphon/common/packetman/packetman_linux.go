@@ -32,7 +32,7 @@ import (
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/florianl/go-nfqueue"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue"
 	"github.com/google/gopacket"
 	"github.com/google/gopacket/layers"
 	cache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
@@ -199,7 +199,7 @@ func (m *Manipulator) Start() (retErr error) {
 
 	// The kernel default is 1024:
 	// https://github.com/torvalds/linux/blob/cd8dead0c39457e58ec1d36db93aedca811d48f1/net/netfilter/nfnetlink_queue.c#L51,
-	// via https://github.com/florianl/go-nfqueue/issues/3.
+	// via https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue/issues/3.
 	// We use a larger queue size to accomodate more concurrent SYN-ACK packets.
 	maxQueueLen := uint32(2048)
 
