@@ -97,7 +97,7 @@ func loadModule(name string) (*types.Package, error) {
 
 func main() {
 	// Import and type-check the package
-	pkg, err := loadModule("github.com/miekg/dns")
+	pkg, err := loadModule("github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns")
 	fatalIfErr(err)
 	scope := pkg.Scope()
 

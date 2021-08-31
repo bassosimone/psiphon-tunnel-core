@@ -29,7 +29,7 @@ import (
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	"github.com/miekg/dns"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns"
 	"github.com/wader/filtertransport"
 )
 

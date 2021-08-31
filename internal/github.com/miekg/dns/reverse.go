@@ -13,7 +13,7 @@ var StringToOpcode = reverseInt(OpcodeToString)
 var StringToRcode = reverseInt(RcodeToString)
 
 func init() {
-	// Preserve previous NOTIMP typo, see github.com/miekg/dns/issues/733.
+	// Preserve previous NOTIMP typo, see github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns/issues/733.
 	StringToRcode["NOTIMPL"] = RcodeNotImplemented
 }
 

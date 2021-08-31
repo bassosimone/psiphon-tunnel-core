@@ -37,7 +37,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/stacktrace"
-	"github.com/miekg/dns"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns"
 )
 
 const (

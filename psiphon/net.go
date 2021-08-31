@@ -38,7 +38,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/fragmentor"
-	"github.com/miekg/dns"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns"
 	"golang.org/x/net/bpf"
 )
 

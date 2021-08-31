@@ -26,7 +26,7 @@ import (
 	"testing/iotest"
 	"time"
 
-	"github.com/miekg/dns"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns"
 )
 
 func TestLRUConns(t *testing.T) {
