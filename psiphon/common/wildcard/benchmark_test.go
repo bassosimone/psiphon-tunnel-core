@@ -23,7 +23,7 @@ import (
 	"testing"
 
 	"github.com/gobwas/glob"
-	go_glob "github.com/ryanuber/go-glob"
+	go_glob "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/ryanuber/go-glob"
 )
 
 func BenchmarkFixedGlobPrecompile(b *testing.B) {
