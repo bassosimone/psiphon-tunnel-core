@@ -19,6 +19,7 @@ require (
 	github.com/refraction-networking/utls v0.0.0-20210713165636-0b2885c8c0d4
 	github.com/ryanuber/go-glob v1.0.0
 	github.com/sergeyfrolov/bsbuffer v0.0.0-20180903213811-94e85abb8507
+	github.com/wader/filtertransport v0.0.0-20200316221534-bdd9e61eee78
 	go.uber.org/zap v1.19.0
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
 	golang.org/x/net v0.0.0-20210825183410-e898025ed96a

@@ -30,7 +30,7 @@ import (
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 	"github.com/miekg/dns"
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/wader/filtertransport"
+	"github.com/wader/filtertransport"
 )
 
 // Dialer is a custom network dialer.
