@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/armon/go-socks5"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/armon/go-socks5"
 	"go.uber.org/zap"
 )
 
