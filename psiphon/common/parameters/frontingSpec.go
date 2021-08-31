@@ -24,7 +24,7 @@ import (
 
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
-	regen "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/zach-klippenstein/goregen"
+	regen "github.com/zach-klippenstein/goregen"
 )
 
 // FrontingSpecs is a list of domain fronting specs.
