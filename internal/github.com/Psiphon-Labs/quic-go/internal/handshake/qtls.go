@@ -6,7 +6,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/marten-seemann/qtls"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
 )
 
 type conn struct {

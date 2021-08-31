@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/chacha20"
-	"github.com/marten-seemann/qtls"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
 )
 
 type headerProtector interface {
