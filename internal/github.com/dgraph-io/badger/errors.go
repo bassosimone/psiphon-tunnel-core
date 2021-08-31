@@ -19,7 +19,7 @@ package badger
 import (
 	"encoding/hex"
 
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/pkg/errors"
 )
 
 var (

@@ -24,7 +24,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/pkg/errors"
 	"golang.org/x/sys/unix"
 )
 

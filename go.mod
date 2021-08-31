@@ -15,6 +15,7 @@ require (
 	github.com/mitchellh/panicwrap v1.0.0
 	github.com/mroth/weightedrand v0.4.1
 	github.com/patrickmn/go-cache v2.1.0+incompatible
+	github.com/pkg/errors v0.8.1
 	go.uber.org/zap v1.19.0
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
 	golang.org/x/net v0.0.0-20210825183410-e898025ed96a

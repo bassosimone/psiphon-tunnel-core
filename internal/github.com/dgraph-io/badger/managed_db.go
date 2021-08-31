@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/pkg/errors"
 )
 
 // ManagedDB allows end users to manage the transactions themselves. Transaction

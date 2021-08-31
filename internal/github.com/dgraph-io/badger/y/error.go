@@ -32,7 +32,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/pkg/errors"
 )
 
 var debugMode = true
