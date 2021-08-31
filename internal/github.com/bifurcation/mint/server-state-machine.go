@@ -7,7 +7,7 @@ import (
 	"hash"
 	"reflect"
 
-	"github.com/bifurcation/mint/syntax"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/bifurcation/mint/syntax"
 )
 
 // Server State Machine

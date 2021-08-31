@@ -10,7 +10,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/wire"
-	"github.com/bifurcation/mint"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/bifurcation/mint"
 )
 
 type tlsSession struct {

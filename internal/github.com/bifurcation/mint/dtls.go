@@ -2,7 +2,7 @@ package mint
 
 import (
 	"fmt"
-	"github.com/bifurcation/mint/syntax"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/bifurcation/mint/syntax"
 	"time"
 )
 

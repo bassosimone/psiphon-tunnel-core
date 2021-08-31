@@ -8,7 +8,7 @@ import (
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
-	"github.com/bifurcation/mint"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/bifurcation/mint"
 )
 
 type transportParameterID uint16
