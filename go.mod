@@ -4,6 +4,7 @@ go 1.17
 
 require (
 	git.torproject.org/pluggable-transports/goptlib.git v1.1.0
+	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
 	go.uber.org/zap v1.19.0
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
 	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
