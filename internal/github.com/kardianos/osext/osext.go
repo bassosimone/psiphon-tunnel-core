@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Extensions to the standard "os" package.
-package osext // import "github.com/kardianos/osext"
+package osext // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/kardianos/osext"
 
 import "path/filepath"
 
