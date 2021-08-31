@@ -18,7 +18,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/obfuscator"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/obfuscator"
 )
 
 // serverHandshakeState contains details of a server handshake in progress.

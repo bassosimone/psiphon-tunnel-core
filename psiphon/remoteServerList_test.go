@@ -40,11 +40,11 @@ import (
 	"testing"
 	"time"
 
-	socks "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/goptlib"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/osl"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/server"
+	socks "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/goptlib"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/osl"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/server"
 )
 
 // TODO: TestCommonRemoteServerList (this is currently covered by controller_test.go)

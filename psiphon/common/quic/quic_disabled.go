@@ -26,9 +26,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 )
 
 // Enabled indicates if QUIC functionality is enabled.

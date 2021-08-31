@@ -27,7 +27,7 @@
 
 // Package drbg implements a minimalistic DRBG based off SipHash-2-4 in OFB
 // mode.
-package drbg // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/drbg"
+package drbg // import "github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/drbg"
 
 import (
 	"encoding/binary"
@@ -35,8 +35,8 @@ import (
 	"fmt"
 	"hash"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dchest/siphash"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dchest/siphash"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
 )
 
 // Size is the length of the HashDrbg output.

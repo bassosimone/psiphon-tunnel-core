@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette/fte"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette/fte"
 )
 
 type AmazonMsgLensCipher struct {

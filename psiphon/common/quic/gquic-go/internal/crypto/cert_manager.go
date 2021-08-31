@@ -7,7 +7,7 @@ import (
 	"hash/fnv"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/qerr"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/qerr"
 )
 
 // CertManager manages the certificates sent by the server

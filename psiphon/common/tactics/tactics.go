@@ -165,11 +165,11 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/obfuscator"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/obfuscator"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 	"golang.org/x/crypto/nacl/box"
 )
 

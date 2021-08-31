@@ -37,10 +37,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/grafov/m3u8"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/grafov/m3u8"
 )
 
 // HttpProxy is a HTTP server that relays HTTP requests through the Psiphon tunnel.

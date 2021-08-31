@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
 )
 
 func TestOSL(t *testing.T) {

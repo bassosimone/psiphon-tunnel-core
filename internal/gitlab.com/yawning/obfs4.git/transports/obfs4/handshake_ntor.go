@@ -38,10 +38,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/replayfilter"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4/framing"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/replayfilter"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4/framing"
 )
 
 const (

@@ -28,14 +28,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
 
 	"golang.org/x/net/trace"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/skl"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/table"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/skl"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/table"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 var (

@@ -7,9 +7,9 @@ import (
 	"math"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/crypto"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/qerr"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/crypto"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/qerr"
 )
 
 type serverConfigClient struct {

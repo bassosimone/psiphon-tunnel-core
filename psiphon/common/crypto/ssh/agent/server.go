@@ -17,7 +17,7 @@ import (
 	"log"
 	"math/big"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
 )
 
 // Server wraps an Agent and uses it to implement the agent side of

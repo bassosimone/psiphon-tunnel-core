@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 func openDir(path string) (*os.File, error) {

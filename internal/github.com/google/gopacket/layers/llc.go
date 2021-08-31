@@ -10,7 +10,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // LLC is the layer used for 802.2 Logical Link Control headers.

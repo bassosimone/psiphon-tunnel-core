@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // TLSAlertLevel defines the alert level data type

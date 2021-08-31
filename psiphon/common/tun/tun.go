@@ -136,10 +136,10 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/goarista/monotime"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/goarista/monotime"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 )
 
 const (
@@ -2802,8 +2802,8 @@ func checksumAdjust(checksumData []byte, accumulator int32) {
 packet debugging snippet:
 
 	import (
-        "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
-        "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
+        "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
+        "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
 	)
 
 

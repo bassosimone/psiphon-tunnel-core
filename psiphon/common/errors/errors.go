@@ -29,7 +29,7 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/stacktrace"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/stacktrace"
 )
 
 // TraceNew returns a new error with the given message, wrapped with the caller

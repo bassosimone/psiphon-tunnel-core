@@ -12,9 +12,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
-	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
-	ps "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance/phantoms"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
+	pb "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	ps "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance/phantoms"
 )
 
 type assets struct {

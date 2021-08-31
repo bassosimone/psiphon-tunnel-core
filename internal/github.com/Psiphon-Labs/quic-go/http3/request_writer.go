@@ -10,9 +10,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/utils"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qpack"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/utils"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/marten-seemann/qpack"
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http2/hpack"
 	"golang.org/x/net/idna"

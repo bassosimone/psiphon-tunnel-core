@@ -9,7 +9,7 @@ package layers
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // EthernetCTPFunction is the function code used by the EthernetCTP protocol to identify each

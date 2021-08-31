@@ -32,13 +32,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tun"
-	lrucache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/tun"
+	lrucache "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
 )
 
 // Controller is a tunnel lifecycle coordinator. It manages lists of servers to

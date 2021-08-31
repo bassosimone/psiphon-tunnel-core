@@ -34,7 +34,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // AuthenticatedDataPackage is a JSON record containing some Psiphon data

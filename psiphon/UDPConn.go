@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"syscall"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // NewUDPConn resolves addr and configures a new UDP conn. The UDP socket is

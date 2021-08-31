@@ -5,8 +5,8 @@ import (
 	"errors"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
 )
 
 var errInvalidAckRanges = errors.New("AckFrame: ACK frame contains invalid ACK ranges")

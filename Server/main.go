@@ -31,12 +31,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Inc/rotate-safe-writer"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/buildinfo"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/server"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mitchellh/panicwrap"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Inc/rotate-safe-writer"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/buildinfo"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/server"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/mitchellh/panicwrap"
 )
 
 var loadedConfigJSON []byte

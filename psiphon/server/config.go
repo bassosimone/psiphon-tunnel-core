@@ -35,14 +35,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/accesscontrol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/osl"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tactics"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/values"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/accesscontrol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/osl"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/tactics"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/values"
 	"golang.org/x/crypto/nacl/box"
 )
 

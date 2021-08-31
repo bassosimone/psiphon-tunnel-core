@@ -22,7 +22,7 @@ package upstreamproxy
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/upstreamproxy/go-ntlm/ntlm"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/upstreamproxy/go-ntlm/ntlm"
 	"net/http"
 	"strings"
 )

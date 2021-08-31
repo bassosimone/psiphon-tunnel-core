@@ -7,7 +7,7 @@
 package layers
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // STP decode spanning tree protocol packets to transport BPDU (bridge protocol data unit) message.

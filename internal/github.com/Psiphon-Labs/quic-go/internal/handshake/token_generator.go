@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/protocol"
 )
 
 const (

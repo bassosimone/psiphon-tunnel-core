@@ -33,8 +33,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/drbg"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4/framing"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/drbg"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4/framing"
 )
 
 const (

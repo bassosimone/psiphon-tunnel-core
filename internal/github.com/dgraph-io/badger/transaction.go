@@ -25,9 +25,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
-	farm "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgryski/go-farm"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	farm "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgryski/go-farm"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 type oracle struct {

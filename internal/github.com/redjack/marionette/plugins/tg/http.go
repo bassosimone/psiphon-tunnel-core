@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette"
 )
 
 type HTTPContentLengthCipher struct{}

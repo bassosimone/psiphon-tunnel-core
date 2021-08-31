@@ -14,8 +14,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
 )
 
 const frameHeaderLen = 9

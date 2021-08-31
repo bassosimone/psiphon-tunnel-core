@@ -6,7 +6,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette/mar"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette/mar"
 	"go.uber.org/zap"
 )
 

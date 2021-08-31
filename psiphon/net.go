@@ -35,10 +35,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/fragmentor"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/miekg/dns"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/fragmentor"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/miekg/dns"
 	"golang.org/x/net/bpf"
 )
 

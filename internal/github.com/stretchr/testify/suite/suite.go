@@ -8,8 +8,8 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/assert"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/require"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/stretchr/testify/assert"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/stretchr/testify/require"
 )
 
 var allTestsFilter = func(_, _ string) (bool, error) { return true, nil }

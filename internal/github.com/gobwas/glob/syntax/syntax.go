@@ -1,8 +1,8 @@
 package syntax
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax/ast"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax/lexer"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax/ast"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax/lexer"
 )
 
 func Parse(s string) (*ast.Node, error) {

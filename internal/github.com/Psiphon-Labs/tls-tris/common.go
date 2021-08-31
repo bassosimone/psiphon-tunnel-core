@@ -19,8 +19,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris/cipherhw"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris/cipherhw"
 )
 
 const (

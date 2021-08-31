@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/nacl/secretbox"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/nacl/secretbox"
 )
 
 func Example() {

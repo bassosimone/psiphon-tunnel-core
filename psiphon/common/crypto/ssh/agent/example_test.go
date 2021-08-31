@@ -9,8 +9,8 @@ import (
 	"net"
 	"os"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/agent"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/agent"
 )
 
 func ExampleClientAgent() {

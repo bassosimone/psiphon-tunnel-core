@@ -9,7 +9,7 @@ package layers
 import (
 	"errors"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // TLSchangeCipherSpec defines the message value inside ChangeCipherSpec Record

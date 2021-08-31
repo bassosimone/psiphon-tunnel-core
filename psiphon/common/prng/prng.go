@@ -58,8 +58,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/Yawning/chacha20"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/Yawning/chacha20"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 	"golang.org/x/crypto/hkdf"
 )
 

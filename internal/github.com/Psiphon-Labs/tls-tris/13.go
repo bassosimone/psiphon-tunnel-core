@@ -24,7 +24,7 @@ import (
 	"golang.org/x/crypto/curve25519"
 
 	// [Psiphon]
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 )
 
 // numSessionTickets is the number of different session tickets the

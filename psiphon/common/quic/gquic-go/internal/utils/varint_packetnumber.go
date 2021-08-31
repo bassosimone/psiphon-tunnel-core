@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
 )
 
 // ReadVarIntPacketNumber reads a number in the QUIC varint packet number format

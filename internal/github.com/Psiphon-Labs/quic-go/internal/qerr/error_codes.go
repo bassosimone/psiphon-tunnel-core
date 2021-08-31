@@ -3,7 +3,7 @@ package qerr
 import (
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
 )
 
 // ErrorCode can be used as a normal error without reason.

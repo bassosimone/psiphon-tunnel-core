@@ -1,8 +1,8 @@
 package ackhandler
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/wire"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/wire"
 )
 
 // This stopWaitingManager is not supposed to satisfy the StopWaitingManager interface, which is a remnant of the legacy AckHandler, and should be remove once we drop support for QUIC 33

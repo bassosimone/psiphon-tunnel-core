@@ -1,6 +1,6 @@
 package gquic
 
-import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cheekybits/genny/generic"
+import "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/cheekybits/genny/generic"
 
 // In the auto-generated streams maps, we need to be able to close the streams.
 // Therefore, extend the generic.Type with the stream close method.

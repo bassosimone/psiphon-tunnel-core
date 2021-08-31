@@ -22,8 +22,8 @@ package parameters
 import (
 	"encoding/base64"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 )
 
 // TransferURL specifies a URL for uploading or downloading resources along

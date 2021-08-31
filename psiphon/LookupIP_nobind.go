@@ -25,7 +25,7 @@ import (
 	"context"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // LookupIP resolves a hostname.

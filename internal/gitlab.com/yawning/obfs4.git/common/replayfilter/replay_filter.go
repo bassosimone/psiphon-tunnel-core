@@ -30,7 +30,7 @@
 // has been seen before based on the SipHash-2-4 digest of the sequence.
 // Collisions are treated as positive matches, though the probability of this
 // happening is negligible.
-package replayfilter // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/replayfilter"
+package replayfilter // import "github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/replayfilter"
 
 import (
 	"container/list"
@@ -38,8 +38,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dchest/siphash"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dchest/siphash"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/csrand"
 )
 
 // maxFilterSize is the maximum capacity of a replay filter.  This value is

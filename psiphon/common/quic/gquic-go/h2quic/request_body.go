@@ -3,7 +3,7 @@ package h2quic
 import (
 	"io"
 
-	quic "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
+	quic "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
 )
 
 type requestBody struct {

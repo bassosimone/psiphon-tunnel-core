@@ -28,7 +28,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // LookupIP resolves a hostname. When BindToDevice is not required, it

@@ -30,12 +30,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
-	cache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket/layers"
+	cache "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
 )
 
 func IsSupported() bool {
@@ -199,7 +199,7 @@ func (m *Manipulator) Start() (retErr error) {
 
 	// The kernel default is 1024:
 	// https://github.com/torvalds/linux/blob/cd8dead0c39457e58ec1d36db93aedca811d48f1/net/netfilter/nfnetlink_queue.c#L51,
-	// via https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue/issues/3.
+	// via https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue/issues/3.
 	// We use a larger queue size to accomodate more concurrent SYN-ACK packets.
 	maxQueueLen := uint32(2048)
 
@@ -519,7 +519,7 @@ func (m *Manipulator) parseInterceptedPacket(packetData []byte) (gopacket.Packet
 	//
 	// As we parse only one packet per TCP connection, we are not using the
 	// faster DecodingLayerParser API,
-	// https://godoc.org/github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket#hdr-Fast_Decoding_With_DecodingLayerParser,
+	// https://godoc.org/github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket#hdr-Fast_Decoding_With_DecodingLayerParser,
 	// or zero-copy approaches.
 	//
 	// TODO: use a stub gopacket.Decoder as the first layer to avoid the extra

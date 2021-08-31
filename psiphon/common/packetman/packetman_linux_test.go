@@ -31,8 +31,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/stacktrace"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/stacktrace"
 )
 
 func TestPacketManipulatorIPv4(t *testing.T) {

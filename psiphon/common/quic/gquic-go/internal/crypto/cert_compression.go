@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"hash/fnv"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
 )
 
 type entryType uint8

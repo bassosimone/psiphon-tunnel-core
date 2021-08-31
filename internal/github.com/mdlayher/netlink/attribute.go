@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mdlayher/netlink/nlenc"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/mdlayher/netlink/nlenc"
 )
 
 // errInvalidAttribute specifies if an Attribute's length is incorrect.

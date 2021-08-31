@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qpack"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/marten-seemann/qpack"
 )
 
 func requestFromHeaders(headers []qpack.HeaderField) (*http.Request, error) {

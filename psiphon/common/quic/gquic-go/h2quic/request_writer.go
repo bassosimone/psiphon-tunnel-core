@@ -8,13 +8,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2/hpack"
 
-	quic "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
+	quic "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/utils"
 )
 
 type requestWriter struct {

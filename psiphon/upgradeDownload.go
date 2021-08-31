@@ -26,8 +26,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
 )
 
 // DownloadUpgrade performs a resumable download of client upgrade files.

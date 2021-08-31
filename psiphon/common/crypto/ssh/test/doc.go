@@ -3,5 +3,5 @@
 // license that can be found in the LICENSE file.
 
 // Package test contains integration tests for the
-// github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh package.
-package test // import "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/test"
+// github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh package.
+package test // import "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/test"

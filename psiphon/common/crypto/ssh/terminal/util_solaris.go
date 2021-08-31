@@ -4,7 +4,7 @@
 
 // +build solaris
 
-package terminal // import "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/terminal"
+package terminal // import "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/terminal"
 
 import (
 	"golang.org/x/sys/unix"

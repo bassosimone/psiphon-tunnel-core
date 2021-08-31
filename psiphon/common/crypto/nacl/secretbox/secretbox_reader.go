@@ -21,7 +21,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package secretbox // import "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/nacl/secretbox"
+package secretbox // import "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/nacl/secretbox"
 
 import (
 	"crypto/subtle"

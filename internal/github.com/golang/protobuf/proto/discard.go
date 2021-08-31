@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2017 The Go Authors.  All rights reserved.
-// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf
+// https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are

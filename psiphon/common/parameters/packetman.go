@@ -20,8 +20,8 @@
 package parameters
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
 )
 
 // PacketManipulationSpec is a work-around to avoid the client-side code size

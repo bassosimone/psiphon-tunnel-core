@@ -6,7 +6,7 @@
 
 // Package subtle implements functions that are often useful in cryptographic
 // code but require careful thought to use correctly.
-package subtle // import "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/internal/subtle"
+package subtle // import "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/internal/subtle"
 
 // This is the Google App Engine standard variant based on reflect
 // because the unsafe package and cgo are disallowed.

@@ -4,7 +4,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/utils"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/utils"
 )
 
 type singleOriginTokenStore struct {

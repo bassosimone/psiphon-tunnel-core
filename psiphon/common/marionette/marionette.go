@@ -21,7 +21,7 @@
 
 /*
 
-Package marionette wraps github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette with net.Listener and
+Package marionette wraps github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette with net.Listener and
 net.Conn types that provide a drop-in replacement for net.TCPConn.
 
 Each marionette session has exactly one stream, which is the equivilent of a TCP
@@ -34,11 +34,11 @@ import (
 	"context"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	redjack_marionette "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette/mar"
-	_ "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette/plugins"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	redjack_marionette "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette/mar"
+	_ "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette/plugins"
 	"go.uber.org/zap"
 )
 

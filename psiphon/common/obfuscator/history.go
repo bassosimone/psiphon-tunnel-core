@@ -23,8 +23,8 @@ import (
 	"encoding/hex"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	lrucache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	lrucache "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	quic "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
+	quic "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
 )
 
 type roundTripCloser interface {

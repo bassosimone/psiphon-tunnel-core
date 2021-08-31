@@ -10,7 +10,7 @@ package layers
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // Dot1Q is the packet layer for 802.1Q VLAN headers.

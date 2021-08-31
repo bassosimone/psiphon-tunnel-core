@@ -1,7 +1,7 @@
 // Go support for Protocol Buffers - Google's data interchange format
 //
 // Copyright 2010 The Go Authors.  All rights reserved.
-// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf
+// https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf
 //
 // Redistribution and use in source and binary forms, with or without
 // modification, are permitted provided that the following conditions are
@@ -358,7 +358,7 @@ func UnmarshalMerge(buf []byte, pb Message) error {
 		// Some implementations do, most do not.
 		// Thus, calling this here may or may not do what people want.
 		//
-		// See https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/issues/424
+		// See https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf/issues/424
 		return u.Unmarshal(buf)
 	}
 	return NewBuffer(buf).Unmarshal(pb)
@@ -406,7 +406,7 @@ func (p *Buffer) Unmarshal(pb Message) error {
 		// Some implementations do, most do not.
 		// Thus, calling this here may or may not do what people want.
 		//
-		// See https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/issues/424
+		// See https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf/issues/424
 		err := u.Unmarshal(p.buf[p.index:])
 		p.index = len(p.buf)
 		return err

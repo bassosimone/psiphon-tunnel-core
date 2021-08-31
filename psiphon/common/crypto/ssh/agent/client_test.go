@@ -16,7 +16,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
 )
 
 // startOpenSSHAgent executes ssh-agent, and returns an Agent interface to it.

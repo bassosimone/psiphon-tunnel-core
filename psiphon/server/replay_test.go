@@ -31,9 +31,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tactics"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/tactics"
 )
 
 func TestServerFragmentorReplay(t *testing.T) {

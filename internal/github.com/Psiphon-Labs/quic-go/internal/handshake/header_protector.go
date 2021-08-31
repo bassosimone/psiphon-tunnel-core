@@ -5,8 +5,8 @@ import (
 	"crypto/cipher"
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/chacha20"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/chacha20"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
 )
 
 type headerProtector interface {

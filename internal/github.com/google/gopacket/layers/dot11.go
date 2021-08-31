@@ -16,7 +16,7 @@ import (
 	"hash/crc32"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // Dot11Flags contains the set of 8 flags in the IEEE 802.11 frame control

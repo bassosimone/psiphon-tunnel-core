@@ -25,7 +25,7 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 var errUnsupported = std_errors.New("operation unsupported on this platform")

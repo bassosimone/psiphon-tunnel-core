@@ -35,10 +35,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 	"golang.org/x/net/trace"
 )
 

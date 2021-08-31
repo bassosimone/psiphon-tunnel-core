@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
 )
 
 // The body of a http.Request or http.Response.

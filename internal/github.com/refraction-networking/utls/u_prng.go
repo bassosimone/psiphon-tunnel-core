@@ -3,11 +3,11 @@
  * All rights reserved.
  *
  * Released under utls licence:
- * https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls/blob/master/LICENSE
+ * https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls/blob/master/LICENSE
  */
 
 // This code is a pared down version of:
-// https://github.com/Psiphon-Labs/psiphon-tunnel-core/blob/158caea562287284cc3fa5fcd1b3c97b1addf659/psiphon/common/prng/prng.go
+// https://github.com/bassosimone/psiphon-tunnel-core/blob/158caea562287284cc3fa5fcd1b3c97b1addf659/psiphon/common/prng/prng.go
 
 package tls
 

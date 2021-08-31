@@ -9,7 +9,7 @@
 //
 // References:
 //  [PROTOCOL.agent]: https://tools.ietf.org/html/draft-miller-ssh-agent-00
-package agent // import "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/agent"
+package agent // import "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/agent"
 
 import (
 	"bytes"
@@ -26,7 +26,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
 )
 
 // Agent represents the capabilities of an ssh-agent.

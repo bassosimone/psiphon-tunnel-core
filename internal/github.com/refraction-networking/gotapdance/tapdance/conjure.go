@@ -17,12 +17,12 @@ import (
 	"time"
 
 	pt "git.torproject.org/pluggable-transports/goptlib.git"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
-	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
-	ps "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance/phantoms"
-	tls "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
+	pb "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	ps "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance/phantoms"
+	tls "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4"
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/hkdf"
 )

@@ -23,11 +23,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tactics"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/groupcache/lru"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/tactics"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/golang/groupcache/lru"
 )
 
 const (

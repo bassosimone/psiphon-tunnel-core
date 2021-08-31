@@ -29,7 +29,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // GenerateWebServerCertificate creates a self-signed web server certificate,

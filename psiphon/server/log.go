@@ -30,12 +30,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Inc/rotate-safe-writer"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/buildinfo"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/stacktrace"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/sirupsen/logrus"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Inc/rotate-safe-writer"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/buildinfo"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/stacktrace"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/sirupsen/logrus"
 )
 
 // TraceLogger adds single frame stack trace information to the underlying

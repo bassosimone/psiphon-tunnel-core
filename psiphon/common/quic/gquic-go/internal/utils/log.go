@@ -125,7 +125,7 @@ func readLoggingEnv() LogLevel {
 	case "error":
 		return LogLevelError
 	default:
-		fmt.Fprintln(os.Stderr, "invalid quic-go log level, see https://github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/wiki/Logging")
+		fmt.Fprintln(os.Stderr, "invalid quic-go log level, see https://github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/wiki/Logging")
 		return LogLevelNothing
 	}
 }

@@ -3,7 +3,7 @@ package gquic
 import (
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
 )
 
 var bufferPool sync.Pool

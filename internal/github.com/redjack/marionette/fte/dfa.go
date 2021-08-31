@@ -18,7 +18,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette/regex2dfa"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette/regex2dfa"
 )
 
 var (

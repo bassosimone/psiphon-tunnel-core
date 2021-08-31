@@ -29,10 +29,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/values"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/server"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/values"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/server"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
 )
 
 // TODO: test that server receives and records correct user_agent value

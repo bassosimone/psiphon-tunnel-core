@@ -16,7 +16,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/terminal"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/terminal"
 )
 
 type serverType func(Channel, <-chan *Request, *testing.T)

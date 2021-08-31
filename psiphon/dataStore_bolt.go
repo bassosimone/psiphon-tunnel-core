@@ -29,8 +29,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/bolt"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/bolt"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 const (

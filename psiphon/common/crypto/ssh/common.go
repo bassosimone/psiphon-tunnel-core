@@ -17,7 +17,7 @@ import (
 	_ "crypto/sha512"
 
 	// [Psiphon]
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 )
 
 // These are string constants in the SSH protocol.

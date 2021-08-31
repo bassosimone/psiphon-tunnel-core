@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
 )
 
 func main() {

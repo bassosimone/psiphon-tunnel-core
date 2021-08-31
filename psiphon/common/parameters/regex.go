@@ -22,7 +22,7 @@ package parameters
 import (
 	"regexp"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // RegexStrings is a list of regex values.

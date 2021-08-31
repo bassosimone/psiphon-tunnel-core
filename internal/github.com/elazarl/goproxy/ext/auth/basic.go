@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
 )
 
 var unauthorizedMsg = []byte("407 Proxy Authentication Required")

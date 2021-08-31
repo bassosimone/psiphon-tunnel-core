@@ -21,7 +21,7 @@
 
 /*
 
-Package refraction wraps github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance with
+Package refraction wraps github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance with
 net.Listener and net.Conn types that provide drop-in integration with Psiphon.
 
 */
@@ -39,13 +39,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto"
-	lrucache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
-	refraction_networking_proto "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
-	refraction_networking_client "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto"
+	lrucache "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
+	refraction_networking_proto "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	refraction_networking_client "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance"
 )
 
 const (
@@ -81,7 +81,7 @@ func Listen(address string) (net.Listener, error) {
 
 	// Setting a timeout ensures that reading the proxy protocol
 	// header completes or times out and RemoteAddr will not block. See:
-	// https://godoc.org/github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto#Conn.RemoteAddr
+	// https://godoc.org/github.com/bassosimone/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto#Conn.RemoteAddr
 
 	proxyListener := &proxyproto.Listener{
 		Listener:           tcpListener,
@@ -715,7 +715,7 @@ func newMinTransportDialer(dialer common.Dialer) common.Dialer {
 // all pending dials and established conns immediately. This ensures that
 // blocking calls within refraction_networking_client, such as tls.Handhake,
 // are interrupted:
-// E.g., https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L307
+// E.g., https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L307
 // (...preceeding SetDeadline is insufficient for immediate cancellation.)
 type dialManager struct {
 	ctxMutex       sync.Mutex
@@ -764,7 +764,7 @@ func (manager *dialManager) dialWithDialer(
 	if manager.useRunCtx {
 
 		// Preserve the random timeout configured by the TapDance client:
-		// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L263
+		// https://github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L263
 		deadline, ok := ctx.Deadline()
 		if !ok {
 			return nil, errors.Tracef("unexpected nil deadline")

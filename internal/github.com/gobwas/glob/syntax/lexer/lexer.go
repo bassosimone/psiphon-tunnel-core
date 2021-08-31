@@ -3,7 +3,7 @@ package lexer
 import (
 	"bytes"
 	"fmt"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/runes"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/runes"
 	"unicode/utf8"
 )
 

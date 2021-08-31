@@ -27,7 +27,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // SubnetLookup provides an efficient lookup for individual

@@ -32,8 +32,8 @@
 //     // Basic imports
 //     import (
 //         "testing"
-//         "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/assert"
-//         "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/suite"
+//         "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/stretchr/testify/assert"
+//         "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/stretchr/testify/suite"
 //     )
 //
 //     // Define the suite, and absorb the built-in basic suite

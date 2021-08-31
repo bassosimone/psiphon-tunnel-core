@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	quic "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
+	quic "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
 
 	"golang.org/x/net/http/httpguts"
 )

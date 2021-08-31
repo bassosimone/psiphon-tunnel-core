@@ -23,8 +23,8 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/testdata"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/testdata"
 )
 
 const (

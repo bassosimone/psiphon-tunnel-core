@@ -3,7 +3,7 @@ package mint
 import (
 	"bytes"
 	"fmt"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/bifurcation/mint/syntax"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/bifurcation/mint/syntax"
 )
 
 type ExtensionBody interface {

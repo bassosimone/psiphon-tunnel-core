@@ -26,7 +26,7 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 func newUDPConn(domain int, config *DialConfig) (net.PacketConn, error) {

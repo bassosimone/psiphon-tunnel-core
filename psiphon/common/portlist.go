@@ -24,7 +24,7 @@ import (
 	"encoding/json"
 	"strconv"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // PortList provides a lookup for a configured list of IP ports and port

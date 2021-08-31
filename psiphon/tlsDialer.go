@@ -62,13 +62,13 @@ import (
 	"io/ioutil"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	tris "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
-	utls "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	tris "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
+	utls "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
 )
 
 // CustomTLSConfig specifies the parameters for a CustomTLSDial, supporting

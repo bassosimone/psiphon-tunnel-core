@@ -9,7 +9,7 @@ package layers
 import (
 	"encoding/binary"
 	"errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // IPSecAH is the authentication header for IPv4/6 defined in

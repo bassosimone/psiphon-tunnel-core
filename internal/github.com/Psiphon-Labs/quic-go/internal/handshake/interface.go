@@ -6,8 +6,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
 )
 
 var (

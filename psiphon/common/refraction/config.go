@@ -23,7 +23,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
 )
 
 // ConjureConfig specifies the additional configuration for a Conjure dial.

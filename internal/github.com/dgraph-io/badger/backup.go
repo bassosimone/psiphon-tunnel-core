@@ -23,9 +23,9 @@ import (
 	"log"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/protos"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/protos"
 )
 
 func writeTo(entry *protos.KVPair, w io.Writer) error {

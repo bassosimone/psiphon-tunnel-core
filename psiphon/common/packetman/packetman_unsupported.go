@@ -25,7 +25,7 @@ import (
 	std_errors "errors"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 func IsSupported() bool {

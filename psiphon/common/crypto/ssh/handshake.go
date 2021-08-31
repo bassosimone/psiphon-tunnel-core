@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	// [Psiphon]
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
 )
 
 // debugHandshake, if set, prints messages sent and received.  Key
@@ -502,7 +502,7 @@ func (t *handshakeTransport) sendKexInit() error {
 	}
 
 	// This is the list of supported non-Encrypt-then-MAC algorithms from
-	// https://github.com/Psiphon-Labs/psiphon-tunnel-core/blob/3ef11effe6acd9
+	// https://github.com/bassosimone/psiphon-tunnel-core/blob/3ef11effe6acd9
 	// 2c3aefd140ee09c42a1f15630b/psiphon/common/crypto/ssh/common.go#L60
 	//
 	// With Encrypt-then-MAC hash algorithms, packet length is transmitted in

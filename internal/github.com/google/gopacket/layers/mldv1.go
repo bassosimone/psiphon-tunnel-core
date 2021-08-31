@@ -14,7 +14,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // MLDv1Message represents the common structure of all MLDv1 messages

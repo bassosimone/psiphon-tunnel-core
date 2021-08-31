@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // LLDPTLVType is the type of each TLV value in a LinkLayerDiscovery packet.

@@ -36,7 +36,7 @@ import (
 	"regexp"
 	"sort"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/sirupsen/logrus"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/sirupsen/logrus"
 )
 
 type LogLevel int

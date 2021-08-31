@@ -9,7 +9,7 @@ import (
 	"crypto/tls"
 	"reflect"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/marten-seemann/qtls"
 )
 
 func init() {

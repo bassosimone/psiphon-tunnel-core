@@ -27,9 +27,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/protos"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/protos"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 // Manifest represents the contents of the MANIFEST file in a Badger store.

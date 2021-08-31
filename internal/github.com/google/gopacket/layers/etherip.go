@@ -8,7 +8,7 @@ package layers
 
 import (
 	"encoding/binary"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // EtherIP is the struct for storing RFC 3378 EtherIP packet headers.

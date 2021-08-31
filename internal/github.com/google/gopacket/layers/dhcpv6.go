@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // DHCPv6MsgType represents a DHCPv6 operation

@@ -15,7 +15,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/ed25519/extra25519"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/ed25519/extra25519"
 	"golang.org/x/crypto/curve25519"
 )
 

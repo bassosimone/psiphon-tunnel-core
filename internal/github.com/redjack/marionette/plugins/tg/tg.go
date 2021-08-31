@@ -3,7 +3,7 @@ package tg
 import (
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette"
 )
 
 type Grammar struct {

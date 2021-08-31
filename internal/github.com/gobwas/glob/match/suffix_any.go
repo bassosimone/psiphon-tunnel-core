@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	sutil "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/strings"
+	sutil "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/strings"
 )
 
 type SuffixAny struct {

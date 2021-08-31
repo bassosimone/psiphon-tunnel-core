@@ -15,8 +15,8 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/davecgh/go-spew/spew"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pmezard/go-difflib/difflib"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/davecgh/go-spew/spew"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pmezard/go-difflib/difflib"
 )
 
 //go:generate go run ../_codegen/main.go -output-package=assert -template=assertion_format.go.tmpl

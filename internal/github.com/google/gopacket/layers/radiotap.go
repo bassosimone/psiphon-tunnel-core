@@ -14,7 +14,7 @@ import (
 	"hash/crc32"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // align calculates the number of bytes needed to align with the width

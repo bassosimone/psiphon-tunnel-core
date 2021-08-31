@@ -35,13 +35,13 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/marionette"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/refraction"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/stacktrace"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/marionette"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/refraction"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/stacktrace"
 )
 
 // MakePsiphonUserAgent constructs a User-Agent value to use for web service

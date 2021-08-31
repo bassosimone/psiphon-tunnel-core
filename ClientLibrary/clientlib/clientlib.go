@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // Parameters provide an easier way to modify the tunnel config at runtime.
@@ -46,7 +46,7 @@ type Parameters struct {
 	ClientPlatform *string
 
 	// Overrides config.NetworkID. For details see:
-	// https://godoc.org/github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon#NetworkIDGetter
+	// https://godoc.org/github.com/bassosimone/psiphon-tunnel-core/psiphon#NetworkIDGetter
 	// nil means the value in the config file will be used. (If not set in the config,
 	// an error will result.)
 	// Empty string will produce an error.

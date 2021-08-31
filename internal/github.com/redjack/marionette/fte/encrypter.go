@@ -11,7 +11,7 @@ import (
 	"io"
 	"math"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/redjack/marionette/ecb"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/redjack/marionette/ecb"
 )
 
 // _MAC_LENGTH = AES.block_size

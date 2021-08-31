@@ -30,10 +30,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	tris "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	tris "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
 )
 
 const WEB_SERVER_IO_TIMEOUT = 10 * time.Second

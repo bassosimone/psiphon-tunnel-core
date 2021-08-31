@@ -7,7 +7,7 @@
 package layers
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // TLSHandshakeRecord defines the structure of a Handshare Record

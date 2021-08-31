@@ -13,7 +13,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // DNSClass defines the class associated with a request/response.  Different DNS

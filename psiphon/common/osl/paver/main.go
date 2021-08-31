@@ -32,7 +32,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/osl"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/osl"
 )
 
 func main() {

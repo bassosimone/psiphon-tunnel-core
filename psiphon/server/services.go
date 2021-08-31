@@ -34,14 +34,14 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/buildinfo"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/osl"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/packetman"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tactics"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tun"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/server/psinet"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/buildinfo"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/osl"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/packetman"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/tactics"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/tun"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/server/psinet"
 )
 
 // RunServices initializes support functions including logging and GeoIP services;
@@ -232,7 +232,7 @@ func RunServices(configJSON []byte) (retErr error) {
 
 	// In addition to the actual signal handling here, there is
 	// a list of signals that need to be passed through panicwrap
-	// in 'github.com/Psiphon-Labs/psiphon-tunnel-core/Server/main.go'
+	// in 'github.com/bassosimone/psiphon-tunnel-core/Server/main.go'
 	// where 'panicwrap.Wrap' is called. The handled signals below, and the
 	// list there must be kept in sync to ensure proper signal handling
 

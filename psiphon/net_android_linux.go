@@ -24,7 +24,7 @@ package psiphon
 import (
 	"unsafe"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 	"golang.org/x/net/bpf"
 	"golang.org/x/sys/unix"
 )

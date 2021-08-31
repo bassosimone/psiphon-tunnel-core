@@ -22,7 +22,7 @@ package values
 import (
 	"testing"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
 )
 
 func TestValues(t *testing.T) {

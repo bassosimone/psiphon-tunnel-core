@@ -54,7 +54,7 @@ import (
 	"net"
 	"net/http"
 
-	tris "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
+	tris "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/tls-tris"
 )
 
 // HTTPSServer is a wrapper around http.Server which adds the

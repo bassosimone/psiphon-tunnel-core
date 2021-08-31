@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"hash/fnv"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
 )
 
 // nullAEAD handles not-yet encrypted packets

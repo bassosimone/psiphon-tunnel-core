@@ -35,10 +35,10 @@ import (
 	"sync"
 	"unicode"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
 )
 
 const (
@@ -246,7 +246,7 @@ type Config struct {
 	// UpstreamProxyURL is a URL specifying an upstream proxy to use for all
 	// outbound connections. The URL should include proxy type and
 	// authentication information, as required. See example URLs here:
-	// https://github.com/Psiphon-Labs/psiphon-tunnel-core/tree/master/psiphon/upstreamproxy
+	// https://github.com/bassosimone/psiphon-tunnel-core/tree/master/psiphon/upstreamproxy
 	UpstreamProxyURL string
 
 	// CustomHeaders is a set of additional arbitrary HTTP headers that are
@@ -2111,7 +2111,7 @@ func (n *loggingNetworkIDGetter) GetNetworkID() string {
 	networkID := n.n.GetNetworkID()
 
 	// All PII must appear after the initial "-"
-	// See: https://godoc.org/github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon#NetworkIDGetter
+	// See: https://godoc.org/github.com/bassosimone/psiphon-tunnel-core/psiphon#NetworkIDGetter
 	logNetworkID := networkID
 	index := strings.Index(logNetworkID, "-")
 	if index != -1 {

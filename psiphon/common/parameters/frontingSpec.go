@@ -22,9 +22,9 @@ package parameters
 import (
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	regen "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/zach-klippenstein/goregen"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
+	regen "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/zach-klippenstein/goregen"
 )
 
 // FrontingSpecs is a list of domain fronting specs.

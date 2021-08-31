@@ -9,8 +9,8 @@ import (
 	"math/rand"
 	"net"
 
-	wr "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mroth/weightedrand"
-	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	wr "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/mroth/weightedrand"
+	pb "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
 )
 
 // getSubnets - return EITHER all subnet strings as one composite array if we are

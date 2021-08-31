@@ -27,8 +27,8 @@ import (
 	"regexp"
 	"testing"
 
-	mapset "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/deckarep/golang-set"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/stretchr/testify/suite"
+	mapset "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/deckarep/golang-set"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/stretchr/testify/suite"
 )
 
 const (

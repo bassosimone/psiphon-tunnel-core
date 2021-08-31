@@ -37,12 +37,12 @@ import (
 	"testing"
 	"time"
 
-	socks "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/goptlib"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/elazarl/goproxy/ext/auth"
+	socks "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/goptlib"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/elazarl/goproxy"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/elazarl/goproxy/ext/auth"
 )
 
 func TestMain(m *testing.M) {

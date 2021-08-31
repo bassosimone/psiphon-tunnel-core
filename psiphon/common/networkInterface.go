@@ -22,7 +22,7 @@ package common
 import (
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // GetInterfaceIPAddresses takes an interface name, such as "eth0", and

@@ -11,7 +11,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // UDP is the layer for UDP headers.

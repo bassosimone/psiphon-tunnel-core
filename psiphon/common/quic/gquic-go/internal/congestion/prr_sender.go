@@ -1,7 +1,7 @@
 package congestion
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/protocol"
 )
 
 // PrrSender implements the Proportional Rate Reduction (PRR) per RFC 6937

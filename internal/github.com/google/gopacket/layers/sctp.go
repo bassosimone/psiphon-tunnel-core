@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // SCTP contains information on the top level of an SCTP packet.

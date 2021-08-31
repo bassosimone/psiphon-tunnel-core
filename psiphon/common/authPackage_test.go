@@ -28,7 +28,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 func TestAuthenticatedPackage(t *testing.T) {

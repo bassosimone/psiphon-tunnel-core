@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh/testdata"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh/testdata"
 )
 
 func rawKey(pub PublicKey) interface{} {

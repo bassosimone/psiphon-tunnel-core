@@ -21,7 +21,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
 )
 
 // See the sshd manpage

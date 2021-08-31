@@ -17,7 +17,7 @@
 package badger
 
 import (
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
 )
 
 // NOTE: Keep the comments in the following to 75 chars width, so they

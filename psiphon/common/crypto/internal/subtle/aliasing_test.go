@@ -7,7 +7,7 @@ package subtle_test
 import (
 	"testing"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/internal/subtle"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/internal/subtle"
 )
 
 var a, b [100]byte

@@ -10,7 +10,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/crypto/ssh"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/crypto/ssh"
 )
 
 // RequestAgentForwarding sets up agent forwarding for the session.

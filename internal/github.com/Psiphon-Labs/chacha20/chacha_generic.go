@@ -10,7 +10,7 @@ import (
 	"crypto/cipher"
 	"encoding/binary"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/chacha20/internal/subtle"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/chacha20/internal/subtle"
 )
 
 // assert that *Cipher implements cipher.Stream

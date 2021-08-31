@@ -25,7 +25,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/Server/logging/analysis"
+	"github.com/bassosimone/psiphon-tunnel-core/Server/logging/analysis"
 )
 
 type stringListFlag []string

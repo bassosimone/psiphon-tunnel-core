@@ -14,7 +14,7 @@
 //
 // See https://http2.golang.org/ for a test server running this code.
 //
-package http2 // import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2"
+package http2 // import "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http2"
 
 import (
 	"bufio"
@@ -29,7 +29,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/net/http/httpguts"
 )
 
 var (

@@ -33,8 +33,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/wildcard"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/wildcard"
 )
 
 const RFC3339Milli = "2006-01-02T15:04:05.000Z07:00"

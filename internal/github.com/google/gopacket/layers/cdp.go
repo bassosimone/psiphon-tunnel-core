@@ -17,7 +17,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // CDPTLVType is the type of each TLV value in a CiscoDiscovery packet.

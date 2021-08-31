@@ -22,8 +22,8 @@ import (
 	"io"
 	"math"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
 )
 
 var (

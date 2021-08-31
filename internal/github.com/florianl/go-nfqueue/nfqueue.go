@@ -5,10 +5,10 @@ import (
 	"encoding/binary"
 	"log"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue/internal/unix"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/florianl/go-nfqueue/internal/unix"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mdlayher/netlink"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/mdlayher/netlink"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 // devNull satisfies io.Writer, in case *log.Logger is not provided

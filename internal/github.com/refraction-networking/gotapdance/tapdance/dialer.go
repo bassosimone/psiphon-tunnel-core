@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net"
 
-	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	pb "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
 )
 
 var sessionsTotal CounterUint64

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto/rand"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/crypto"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/quic/gquic-go/internal/crypto"
 )
 
 // ServerConfig is a server config

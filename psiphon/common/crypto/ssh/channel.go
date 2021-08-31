@@ -56,7 +56,7 @@ const (
 //   channelWindowSize due to client memory constraints.
 func getChannelWindowSize(chanType string) int {
 
-	// From "github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol".
+	// From "github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol".
 	// Copied here to avoid import cycle.
 	packetTunnelChannelType := "tun@psiphon.ca"
 

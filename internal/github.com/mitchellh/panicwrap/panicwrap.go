@@ -21,7 +21,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/kardianos/osext"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/kardianos/osext"
 )
 
 const (

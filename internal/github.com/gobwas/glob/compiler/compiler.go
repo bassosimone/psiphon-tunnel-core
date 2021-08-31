@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/match"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax/ast"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/runes"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/match"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/syntax/ast"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/gobwas/glob/util/runes"
 )
 
 func optimizeMatcher(matcher match.Matcher) match.Matcher {

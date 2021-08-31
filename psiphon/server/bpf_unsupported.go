@@ -24,7 +24,7 @@ package server
 import (
 	"net"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
 )
 
 // ServerBPFEnabled indicates if BPF functionality is enabled.

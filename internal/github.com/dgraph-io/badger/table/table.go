@@ -27,10 +27,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 
 const fileSuffix = ".sst"

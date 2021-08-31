@@ -1,6 +1,6 @@
 package ackhandler
 
-import "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/wire"
+import "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/wire"
 
 // IsFrameAckEliciting returns true if the frame is ack-eliciting.
 func IsFrameAckEliciting(f wire.Frame) bool {

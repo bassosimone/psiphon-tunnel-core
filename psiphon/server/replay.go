@@ -24,10 +24,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/parameters"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/prng"
-	lrucache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/parameters"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/prng"
+	lrucache "github.com/bassosimone/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
 )
 
 const (

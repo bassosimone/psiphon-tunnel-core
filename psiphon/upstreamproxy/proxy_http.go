@@ -54,7 +54,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
 	"golang.org/x/net/proxy"
 )
 

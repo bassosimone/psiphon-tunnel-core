@@ -25,10 +25,10 @@ import (
 	"net"
 	"sync/atomic"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/fragmentor"
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/upstreamproxy"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/fragmentor"
+	"github.com/bassosimone/psiphon-tunnel-core/psiphon/upstreamproxy"
 )
 
 // TCPConn is a customized TCP connection that supports the Closer interface

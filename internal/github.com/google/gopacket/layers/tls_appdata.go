@@ -9,7 +9,7 @@ package layers
 import (
 	"errors"
 
-	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/google/gopacket"
+	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/google/gopacket"
 )
 
 // TLSAppDataRecord contains all the information that each AppData Record types should have
