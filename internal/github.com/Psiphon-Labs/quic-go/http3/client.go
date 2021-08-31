@@ -13,7 +13,7 @@ import (
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/Psiphon-Labs/quic-go/internal/utils"
-	"github.com/marten-seemann/qpack"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marten-seemann/qpack"
 )
 
 const defaultUserAgent = "quic-go HTTP/3"
