@@ -30,7 +30,7 @@ import (
 	"syscall"
 
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/creack/goselect"
+	"github.com/creack/goselect"
 )
 
 // tcpDial is the platform-specific part of DialTCP
