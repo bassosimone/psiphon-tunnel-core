@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
-	pb "github.com/refraction-networking/gotapdance/protobuf"
+	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/sergeyfrolov/bsbuffer"
 )
 

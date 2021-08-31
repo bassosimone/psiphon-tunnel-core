@@ -18,8 +18,8 @@ import (
 
 	pt "git.torproject.org/pluggable-transports/goptlib.git"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/golang/protobuf/proto"
-	pb "github.com/refraction-networking/gotapdance/protobuf"
-	ps "github.com/refraction-networking/gotapdance/tapdance/phantoms"
+	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	ps "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance/phantoms"
 	tls "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/utls"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/common/ntor"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/gitlab.com/yawning/obfs4.git/transports/obfs4"

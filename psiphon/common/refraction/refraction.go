@@ -21,7 +21,7 @@
 
 /*
 
-Package refraction wraps github.com/refraction-networking/gotapdance with
+Package refraction wraps github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance with
 net.Listener and net.Conn types that provide drop-in integration with Psiphon.
 
 */
@@ -44,8 +44,8 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto"
 	lrucache "github.com/cognusion/go-cache-lru"
-	refraction_networking_proto "github.com/refraction-networking/gotapdance/protobuf"
-	refraction_networking_client "github.com/refraction-networking/gotapdance/tapdance"
+	refraction_networking_proto "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
+	refraction_networking_client "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/tapdance"
 )
 
 const (
@@ -715,7 +715,7 @@ func newMinTransportDialer(dialer common.Dialer) common.Dialer {
 // all pending dials and established conns immediately. This ensures that
 // blocking calls within refraction_networking_client, such as tls.Handhake,
 // are interrupted:
-// E.g., https://github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L307
+// E.g., https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L307
 // (...preceeding SetDeadline is insufficient for immediate cancellation.)
 type dialManager struct {
 	ctxMutex       sync.Mutex
@@ -764,7 +764,7 @@ func (manager *dialManager) dialWithDialer(
 	if manager.useRunCtx {
 
 		// Preserve the random timeout configured by the TapDance client:
-		// https://github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L263
+		// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/4d84655dad2e242b0af0459c31f687b12085dcca/tapdance/conn_raw.go#L263
 		deadline, ok := ctx.Deadline()
 		if !ok {
 			return nil, errors.Tracef("unexpected nil deadline")

@@ -10,7 +10,7 @@ import (
 	"net"
 
 	wr "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mroth/weightedrand"
-	pb "github.com/refraction-networking/gotapdance/protobuf"
+	pb "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/protobuf"
 )
 
 // getSubnets - return EITHER all subnet strings as one composite array if we are

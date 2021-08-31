@@ -35,7 +35,7 @@ import (
 // See: https://github.com/go-bindata/go-bindata#lower-memory-footprint.
 //
 // The embedded ClientConf value is from:
-// https://github.com/refraction-networking/gotapdance/blob/88b8e2e421cc808af2e65777c78bfc8cb4906a58/assets/ClientConf
+// https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/refraction-networking/gotapdance/blob/88b8e2e421cc808af2e65777c78bfc8cb4906a58/assets/ClientConf
 //
 // It is processed with "hexdump -ve '"\\\x" 1/1 "%.2x"' ClientConf > embeddedClientConf".
 func getEmbeddedClientConf() []byte {
