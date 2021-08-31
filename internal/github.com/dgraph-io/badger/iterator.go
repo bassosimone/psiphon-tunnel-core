@@ -23,9 +23,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/dgraph-io/badger/options"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
 
-	"github.com/dgraph-io/badger/y"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
 	farm "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgryski/go-farm"
 )
 
@@ -112,7 +112,7 @@ func (item *Item) Value() ([]byte, error) {
 // returned. Tip: It might make sense to reuse the returned slice as dst argument for the next call.
 //
 // This function is useful in long running iterate/update transactions to avoid a write deadlock.
-// See Github issue: https://github.com/dgraph-io/badger/issues/315
+// See Github issue: https://github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/issues/315
 func (item *Item) ValueCopy(dst []byte) ([]byte, error) {
 	item.wg.Wait()
 	if item.status == prefetched {

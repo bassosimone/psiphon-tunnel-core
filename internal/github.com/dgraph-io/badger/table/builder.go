@@ -23,7 +23,7 @@ import (
 	"math"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/AndreasBriese/bbloom"
-	"github.com/dgraph-io/badger/y"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
 )
 
 var (

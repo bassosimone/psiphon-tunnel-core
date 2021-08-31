@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/dgraph-io/badger/protos"
-	"github.com/dgraph-io/badger/y"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/protos"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/pkg/errors"
 )
 

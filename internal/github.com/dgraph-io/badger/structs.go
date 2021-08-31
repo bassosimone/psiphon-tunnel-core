@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/dgraph-io/badger/y"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/y"
 )
 
 type valuePointer struct {

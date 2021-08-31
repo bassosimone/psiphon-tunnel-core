@@ -26,8 +26,8 @@ import (
 	"path/filepath"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/dgraph-io/badger"
-	"github.com/dgraph-io/badger/options"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/dgraph-io/badger/options"
 )
 
 const (
