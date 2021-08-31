@@ -42,7 +42,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/errors"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/protocol"
-	"github.com/armon/go-proxyproto"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto"
 	lrucache "github.com/cognusion/go-cache-lru"
 	refraction_networking_proto "github.com/refraction-networking/gotapdance/protobuf"
 	refraction_networking_client "github.com/refraction-networking/gotapdance/tapdance"
@@ -81,7 +81,7 @@ func Listen(address string) (net.Listener, error) {
 
 	// Setting a timeout ensures that reading the proxy protocol
 	// header completes or times out and RemoteAddr will not block. See:
-	// https://godoc.org/github.com/armon/go-proxyproto#Conn.RemoteAddr
+	// https://godoc.org/github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/armon/go-proxyproto#Conn.RemoteAddr
 
 	proxyListener := &proxyproto.Listener{
 		Listener:           tcpListener,
