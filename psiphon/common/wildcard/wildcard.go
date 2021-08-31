@@ -37,7 +37,7 @@
 // BenchmarkSuffixMatch-4               50000000        25.8 ns/op
 // BenchmarkMultipleMatch-4             10000000       167 ns/op
 //
-// github.com/bassosimone/psiphon-tunnel-core/internal/github.com/ryanuber/go-glob:
+// github.com/ryanuber/go-glob:
 //
 // BenchmarkFixedGoGlob-4              30000000         58.3 ns/op
 // BenchmarkPrefixGoGlob-4              20000000       106 ns/op
