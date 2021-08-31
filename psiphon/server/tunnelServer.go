@@ -51,7 +51,7 @@ import (
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/refraction"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tactics"
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common/tun"
-	"github.com/marusama/semaphore"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/marusama/semaphore"
 	cache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/patrickmn/go-cache"
 )
 
