@@ -10,7 +10,7 @@ import (
 
 	"github.com/florianl/go-nfqueue/internal/unix"
 
-	"github.com/mdlayher/netlink"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mdlayher/netlink"
 )
 
 // Nfqueue represents a netfilter queue handler

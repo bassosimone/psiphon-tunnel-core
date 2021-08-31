@@ -8,7 +8,7 @@ import (
 
 	"github.com/florianl/go-nfqueue/internal/unix"
 
-	"github.com/mdlayher/netlink"
+	"github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/mdlayher/netlink"
 )
 
 func extractAttribute(log *log.Logger, a *Attribute, data []byte) error {
