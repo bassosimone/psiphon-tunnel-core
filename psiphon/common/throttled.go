@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/errors"
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/juju/ratelimit"
+	"github.com/juju/ratelimit"
 )
 
 // RateLimits specify the rate limits for a ThrottledConn.
