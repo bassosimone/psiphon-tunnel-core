@@ -36,7 +36,7 @@ import (
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/buildinfo"
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/common/protocol"
 	"github.com/bassosimone/psiphon-tunnel-core/psiphon/server"
-	"github.com/bassosimone/psiphon-tunnel-core/internal/github.com/mitchellh/panicwrap"
+	"github.com/mitchellh/panicwrap"
 )
 
 var loadedConfigJSON []byte
