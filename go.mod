@@ -11,6 +11,7 @@ require (
 	github.com/gobwas/glob v0.2.3
 	github.com/hashicorp/golang-lru v0.5.4
 	github.com/juju/ratelimit v1.0.1
+	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
 	go.uber.org/zap v1.19.0
 	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5
 	golang.org/x/net v0.0.0-20210825183410-e898025ed96a
