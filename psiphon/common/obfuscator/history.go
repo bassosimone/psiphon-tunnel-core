@@ -24,7 +24,7 @@ import (
 	"time"
 
 	"github.com/Psiphon-Labs/psiphon-tunnel-core/psiphon/common"
-	lrucache "github.com/cognusion/go-cache-lru"
+	lrucache "github.com/Psiphon-Labs/psiphon-tunnel-core/internal/github.com/cognusion/go-cache-lru"
 )
 
 const (
